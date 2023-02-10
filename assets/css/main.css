@@ -2,6 +2,19 @@
   margin: 0px;
   padding: 0px;
 }
+@font-face {
+  font-family: "inter-bold";
+  src: url(../fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "inter-extrabold";
+  src: url(../fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "inter-regular";
+  src: url(../fonts/static/Inter-Regular.ttf);
+}
+
 body {
   box-sizing: border-box;
   font: 15px;
@@ -65,7 +78,8 @@ body {
   background-color: hsl(240, 100%, 5%);
 }
 .headline {
-  font-size: xx-large;
+  font-size: 2.5rem;
+  font-family: "inter-extrabold";
 }
 .sidebar {
   background-color: hsl(240, 100%, 5%);
@@ -82,9 +96,10 @@ body {
 .New {
   padding: 10px 15px;
   color: hsl(35, 77%, 62%);
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: larger;
+  /* text-transform: uppercase; */
+  /* font-weight: bolder */
+  font-size: 2.5rem;
+  font-family: "inter-bold";
 }
 .line {
   height: 0.6px;
@@ -129,16 +144,17 @@ body {
   display: flex;
   flex: 1;
   gap: 20px;
-  color: hsl(233, 8%, 79%) ;
+  color: hsl(233, 8%, 79%);
   cursor: pointer;
 }
-.bottom-text1 h2{
- color: black; 
+.bottom-text1 h2 {
+  color: black;
+  font-family: "inter-regular";
 }
 .bottom-text1 img {
   width: 150px;
   height: 130px;
 }
-.bottom-text1 h2:hover{
-  color: hsl(5, 85%, 63%) ;
+.bottom-text1 h2:hover {
+  color: hsl(5, 85%, 63%);
 }
